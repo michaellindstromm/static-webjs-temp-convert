@@ -9,16 +9,14 @@
       <input type="text" name="temp-input" value="" id="temp-input" onsubmit=""> Degrees
     </label>
 
-    <form class="btn-group" action="index.html" method="post" id="radio">
-      <label for="unit">Convert to: </label>
-      <input type="radio" name="unit" value="0" id="far-radio"> Farenheit
-      <input type="radio" name="unit" value="1" id="cel-radio"> Celcius
-    </form>
+    <label for="unit">Convert to: </label>
+    <input type="radio" name="unit" value="0" id="far-radio"> Farenheit
+    <input type="radio" name="unit" value="1" id="cel-radio"> Celcius
 
     <button type="button" name="button" id="converter">Convert!</button>
     <button type="button" name="button" id="clearer">Clear</button>
 
-    <div class="calculated-temp">
+    <div id="calculated-temp">
 
     </div>
 
